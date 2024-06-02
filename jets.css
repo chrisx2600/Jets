@@ -1,0 +1,44 @@
+  .element { 
+
+            display: flex; 
+            position: relative; 
+            width: 50%; 
+            height: 12vh;
+            background:url(jets_plane.png);
+            background-size:64.1025641025641vh;
+            background-repeat: no-repeat;
+            animation-name: animation; 
+            animation-duration: 5s; 
+            animation-fill-mode: both; 
+            transform: rotate(0deg);
+  
+        } 
+       
+  
+@keyframes animation { 
+0%   {left: -170vh; top: -30vh;
+transform: scale(1) rotate(45deg);}
+25%  {left: 17vh; top: -30vh;}
+/*transform: scale(1) rotate(45deg);}*/
+/*85% {left: -17vh; top: -30vh;}*/
+/*95% {left: 29vh; top: 0vh;*/
+/*}*/
+100% {left:16.3vw; top: -39.5vh;
+/*  100% {left:32% top: -100%;*/
+}
+        } 
+       #main{
+        position: relative;
+/*        background:url(../../../JETS07.webp);*/
+      
+             background-size:1vh;
+             background-repeat: no-repeat;
+             justify-content: center; 
+             align-items: center;
+             display: grid;
+            place-items: center;
+/*            left: 50%;*/
+/*        margin-left: 250vw;*/
+        width: 92vw;
+/*        padding-left: 100%;*/
+         }
